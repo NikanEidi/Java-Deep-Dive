@@ -1,7 +1,7 @@
-public class GamePlayer {  // P بزرگ
+public class GamePlayer {  
 
     // Instance Variables
-    private String username; // S بزرگ
+    private String username; 
     private int level;
     private int health;
 
@@ -9,7 +9,7 @@ public class GamePlayer {  // P بزرگ
     private static int totalOnlinePlayers = 0;
 
     // Constructor
-    public GamePlayer(String username) { // S بزرگ
+    public GamePlayer(String username) { 
         this.username = username;
         this.level = 1;
         this.health = 100;
